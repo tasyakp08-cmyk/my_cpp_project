@@ -9,3 +9,31 @@ build/
 *.tmp
 .DS_Store
 Thumbs.db
+# Кэш clangd
+.cache/
+
+# Бинарники без расширения
+app
+code
+
+# Бэкапы
+*.save
+
+# Сборка
+build/
+
+# Объектные файлы
+*.o
+*.a
+*.so
+
+# Исполняемые
+*.exe
+
+# Логи и временные
+*.log
+*.tmp
+
+# Системные
+.DS_Store
+Thumbs.db
